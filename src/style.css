@@ -133,6 +133,9 @@ main {
 
 /* Alert Section (Glassmorphism Danger) */
 .alert-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   margin-bottom: 50px;
 }
 
@@ -183,7 +186,6 @@ main {
   box-shadow: var(--shadow-sm);
   position: relative;
   overflow: hidden;
-  margin-bottom: 24px;
 }
 
 .alert-warning::before {
